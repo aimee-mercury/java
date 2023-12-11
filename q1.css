@@ -1,0 +1,43 @@
+nav ul li a{
+    text-decoration: none;
+    overflow: hidden;
+    list-style-type: none;
+    color: white;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding:4px;
+}
+nav {
+    background-color: rgb(7, 6, 6);
+    color: white;
+   display: flex;
+   justify-content: space-between;
+    padding: 10px 
+  }
+  .menu{
+  color: white;
+  list-style-type: none;
+  display: flex;
+  margin-right:800px;
+  }
+  .A{
+    margin-left: 100px;
+  }
+  .B,.C,.D{
+    margin-left:30px ;
+  }
+.A:hover{
+    color: coral;
+}
+.B:hover{
+    color: coral;
+}
+.C:hover{
+    color: coral;
+}
+.D:hover{
+    color: coral;
+}

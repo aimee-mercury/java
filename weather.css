@@ -1,0 +1,62 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for country selection section */
+.country-selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.country {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.country img {
+  width: 100px;
+  height: auto;
+}
+
+.weather-icon {
+
+  /* Style weather icon */
+}
+
+/* Styles for country weather section */
+.country-weather {
+  padding: 20px;
+}
+
+.country-details img {
+  width: 80px;
+  height: auto;
+}
+
+.country-details h1 {
+  margin-top: 10px;
+}
+
+.weather-divisions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.humidity,
+.temperature {
+  width: 45%;
+}
+
+.humidity-graph,
+.temperature-graph {
+  
+  /* Style graphs or visual representations for humidity and temperature */
+}
